@@ -1,1 +1,42 @@
- 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./img/sample-pattern.png");
+}
+
+header {
+    padding: 20px 0;
+    background-color: white;
+}
+
+header img {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left
+} 
+
+nav {
+    float: right;
+    width: 100%;
+}
+
+header ul {
+    list-style-type: none;
+    margin: auto 0;
+    padding: 0;
+    background-color: white;
+    position: relative;
+    text-align: right;
+    overflow: hidden;
+}
+
+header ul a {
+    display: inline-block;
+    text-align: center;
+    padding: 0 20px;
+    text-decoration: none;
+}
